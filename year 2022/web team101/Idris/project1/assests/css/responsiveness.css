@@ -1,0 +1,97 @@
+@media (max-width: 680px) {
+  :root {
+    --headers: 5vw;
+    --headercolor: green;
+  }
+  .header {
+    display: flex;
+    background-image: linear-gradient(
+      rgba(3, 158, 3, 0.76),
+      rgba(24, 219, 73, 0.603)
+    );
+    position: fixed;
+    position: relative;
+    color: white;
+    font-size: 6vw;
+  }
+  .logodiv {
+    font-size: 2.2vw;
+    color: rgb(47, 13, 13);
+  }
+  .icons {
+    margin-top: 2vw;
+    margin-left: 4vw;
+    font-size: 0.25vw;
+    transition: 3s;
+  }
+  .plan {
+    margin-left: 1vw;
+    font-size: 2.8vw;
+    color: rgb(47, 13, 13);
+  }
+  .bibi {
+    width: 4.5vw;
+    background-color: rgb(47, 13, 13);
+  }
+  .intro {
+    color: var(--headercolor);
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: var(--headers);
+  }
+  .tutorials {
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(31, 243, 42);
+  }
+  .but {
+    font-size: 4vw;
+    margin-left: 1vw;
+  }
+  .welcome {
+    text-align: center;
+    color: var(--headercolor);
+    font-size: 5vw;
+  }
+  .nicnature {
+    font-size: 5vw;
+  }
+  /* </--corn style---//> */
+  .textsize {
+    font-size: 0.25vw;
+    color: rgb(5, 5, 5);
+  }
+  .time {
+    color: rgb(28, 245, 111);
+    text-align: center;
+    font-size: 6vw;
+  }
+  .size {
+    font-size: 3vw;
+  }
+  /* corn style end*/
+  /* beans styling*/
+  .about {
+    font-size: 3vw;
+    color: green;
+  }
+  .text {
+    font-size: 8vw;
+  }
+  .nicnature {
+    align-content: justify;
+    font-size: 3.6vw;
+    margin: 5vw;
+  }
+  .tutorials {
+    font-size: var(--headers);
+    color: var(--headercolor);
+  }
+  .textdes {
+    color: black;
+    font-size: 3.6vw;
+  }
+  .bigbut {
+    margin: 4vw;
+  }
+}
