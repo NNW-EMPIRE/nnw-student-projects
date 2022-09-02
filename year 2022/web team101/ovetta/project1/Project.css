@@ -1,0 +1,133 @@
+  body{
+    max-width: 100%;
+    background: cover;
+  }
+  .Header{
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(94, 93, 93, 0.815),rgba(0, 0, 0, 0.7)), url(./RTX\ 3080.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+     margin: -7px  ;
+     margin-left: -5px;
+   
+ }
+ .nav1{
+   
+ }
+ .list{
+   flex: 1;
+   text-align: right;
+   text-decoration: none;
+   max-inline-size: 50px;
+   margin-top:-17% ;
+ }
+ .list ul li{
+   list-style: none;
+   position: relative;
+   display: inline-block;
+   padding:8px 12px ;
+ }
+ .list ul li a{
+   text-decoration: none;
+   color: white;
+ }
+ .list ul li:hover{
+   border:solid  black ;
+   background-color: black;
+   transition-duration: 1s;
+ }
+
+ .explore a{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+   font-family:Bahnschrift;
+   font-size: 25;
+   border: 1px solid white;
+   padding: 8px 12px;
+   cursor: pointer;
+
+   background-color:  transparent ;
+ }
+ .explore a:hover{
+    background-color: black;
+    border: solid  black;
+    transition-duration: 0.2s;
+ }
+ /*sales2*/
+  .AMD{
+    width: 350px;
+    height: 250px;
+    margin-left: 0px;
+  }
+  .head1{
+    font-family:  Bahnschrift;
+   
+  }
+  .p{
+    font-family:  Agency FB;
+    font-size: 18px;
+    margin: 5px 10px 0px 10px;
+  }
+  .p2{
+    margin-left: 10px;
+    font-family: Agency FB;
+    font-size: 20px;
+  }
+  .bodydiv1{
+    display: flex;
+  }
+  .bodydiv2{
+    display: flex;
+    margin-top: 10px;
+  }
+  .bodydiv3{
+    display: flex;
+    margin-top: 10px;
+  }
+  .intel{
+    width: 350px;
+    height: 250px;
+    margin-left: 0px;
+  }
+  .nvidia2{
+    display: none;
+  }
+  .AMD2{
+    display: none;
+  }
+  .intel2{
+    display: none;
+  }
+  .nvidia{
+    width: 350px;
+    height: 250px;
+    margin-left: 0px;
+  }
+.companies{
+  margin: 70px 70px 70px 30px;
+}
+  .line{
+    border: 2px solid rgb(0, 0, 0);
+    
+  }
+  .line2{
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .line3{
+    border: 2px solid rgb(0, 0, 0);
+  }
+   .latest {
+    display: flex;
+    flex: auto;
+ 
+   }
+   
+   
+     
+ 

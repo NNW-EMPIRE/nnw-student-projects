@@ -1,0 +1,173 @@
+/* home page styling*/
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-image: linear-gradient(
+    rgba(3, 158, 3, 0.76),
+    rgba(24, 219, 73, 0.603)
+  );
+  position: fixed;
+  position: relative;
+  color: rgb(48, 13, 13);
+}
+.profile {
+  margin-top: -8vw;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  word-wrap: 35%;
+  background-color: rgba(172, 255, 47, 0.185);
+}
+.mybody {
+  color: rgb(5, 5, 5);
+}
+.plant {
+  flex: 50%;
+  margin-top: 1vh;
+  margin-left: 0vw;
+  background-image: linear-gradient(
+    rgba(3, 158, 3, 0.76),
+    rgba(24, 219, 73, 0.603)
+  );
+}
+.logodiv {
+  flex: 25%;
+  display: grid;
+  place-items: center;
+}
+.plants {
+  display: flex;
+  margin-left: 4vw;
+  margin-bottom: 1vw;
+}
+
+.intro {
+  color: black;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icons {
+  flex: 25%;
+
+  font-size: 1vw;
+  transition: 3s;
+  size-adjust: 1vw;
+  display: grid;
+  place-items: center;
+}
+.intro {
+  color: rgb(31, 243, 42);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.bibi {
+  margin-left: 1vw;
+}
+.bibi:hover {
+  width: 2vw;
+  transition: 0.2s;
+}
+.plan {
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-size: 1.5vw;
+  color: white;
+}
+.welcome {
+  text-align: center;
+  color: rgb(29, 148, 45);
+  font-size: 3vw;
+}
+.but {
+  font-size: 3vw;
+  margin-left: 1vw;
+  color: green;
+}
+.bigbut {
+  text-align: center;
+  color: green;
+}
+.idris {
+  border-radius: 60%;
+  margin-top: 10%;
+  margin-left: 17%;
+}
+.idri {
+  margin-top: 7vw;
+}
+/*end of homepage styling*/
+
+/* </--corn style---//> */
+.time {
+  color: rgb(28, 245, 111);
+  text-align: center;
+  font-size: 40px;
+}
+.textsize {
+  font-size: 20px;
+  color: rgb(5, 5, 5);
+}
+/* corn style end*/
+
+/* beans styling*/
+.text {
+  font-size: 2vw;
+}
+.about {
+  margin-top: 1vw;
+}
+.beansphoto {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 3vw;
+}
+.edit {
+  text-align: center;
+}
+.floatry {
+  font-size: 3vw;
+}
+.greenbean {
+  font-size: 3vw;
+}
+.cool {
+  display: grid;
+  width: 30%;
+  height: 35%;
+  border-radius: 4vw;
+  margin-left: 3vw;
+  background-image: linear-gradient(
+    rgba(3, 158, 3, 0.76),
+    rgba(24, 219, 73, 0.603)
+  );
+}
+.log {
+  width: 30%;
+  height: 35%;
+  margin-top: 10vw;
+  margin-left: 3vw;
+  background-image: linear-gradient(
+    rgba(3, 158, 3, 0.76),
+    rgba(24, 219, 73, 0.603)
+  );
+}
+.coo {
+  display: flex;
+}
+/* beans stylig ends*/
+
+/* about us styling*/
+.lorem {
+  color: green;
+  font-size: 4vw;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.lorem2 {
+  font-size: 3vw;
+  font-family: "Times New Roman", Times, serif;
+}
+/* about us styling end*/

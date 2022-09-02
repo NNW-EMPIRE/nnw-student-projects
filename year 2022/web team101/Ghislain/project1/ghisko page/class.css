@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+.div1{
+    background-color: blue;
+    display: flex;
+    color: white;
+    height: 40px;
+    font-size: 1.2vw;
+}
+.head1{
+    flex: 50%;
+    display: grid;
+    place-items: center left;
+    margin-left: 1.5vw;
+}
+.head2{
+    flex: 50%;
+    display: grid;
+    place-items: center right;
+    
+}
+.icon{
+    margin-right: 12vw;
+}
+.div3{
+    display: flex;
+    
+}
+.call{
+    color: white;
+    
+    margin-left: 8vw;
+    
+}
+
+.li{
+    list-style: none;
+    flex: 16.5%;
+    font-size: 20px;
+}
+.div2{
+    display: flex;
+    padding-top: 20px;
+}
+.logodiv{
+    flex: 40%;
+}
+.logo{
+    margin-left: 8vw;
+    font-size: 2vw;
+}
+.navdiv{
+    flex: 50%;
+    margin-top: 10px;
+}
+.searchdiv{
+    flex: 10%;
+    border-left:1px solid blue ;
+    display: grid;
+    place-items: center left;
+}
+.btn1{
+    border: 0px;
+    background-color: white;
+    
+}
+.toggle{
+    display: none;
+}
+.div4{
+    display: none;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:600px) {
+    .toggle{
+        display: grid;
+        place-items:left;
+        margin-right:5vw ;
+
+    }
+    .mobile{
+        display: block;
+        
+    }
+    .navdiv{
+        display: none;
+    }
+    .logo{
+        font-size: 4vw;
+    }
+    .call, .icon{
+        font-size: 2vw;
+    }
+   
+
+    .appear{
+        display: block ;
+    }
+    .div4{
+        display: none;
+    }
+
+}
