@@ -1,0 +1,83 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    background: rgba(105, 105, 105, 0.137);
+
+}
+.contant-form{
+   text-align: center;
+   padding: 10px;
+   margin-top: 40px;
+   
+   
+}
+.contant-form hr{
+    width: 33%;
+}
+#l1{
+    margin-left: -27%;
+    font-size: 25px;
+    color: dimgray;
+}
+#l2{
+    margin-left: -23%;
+    font-size: 25px;
+    color: dimgray;
+}
+#l3{
+    margin-left: -24%;
+    font-size: 25px;
+    color: dimgray;
+}
+#l4{
+    margin-left: -21%;
+    font-size: 25px;
+    color: dimgray;
+    margin-top: 10px;
+}
+.lab1{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contant-form img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.contant-form h1{
+    text-align: center;
+    color: dimgray;
+    
+}
+#p-d{
+    margin-top: 20%;
+    margin-left: -8%;
+    font-size: 19px;
+    color: dimgray;
+}
+#rad{
+    margin-top: 30px;
+    font-size: 19px;
+    color: dimgray;
+}
+.btn1{
+    margin-top: 30px;
+    padding: 12px;
+    background-color: rgba(5, 148, 5, 0.644);
+    color: white;
+    margin-left: -20px;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+}
+.btn2{
+    margin-top: 30px;
+    padding: 12px;
+    background-color: rgba(230, 29, 29, 0.747);
+    color: white;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+}
+    

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: rgb(31, 30, 30);
+    display: flex;
+}
+.logo{
+    flex: 30%;
+    border-radius: 25px;
+}
+.logo img{
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.links{
+    flex: 70%;
+    margin-top: 50px;
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.history h2{
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.history p{
+    line-height:30px;
+    margin: 40px;
+}
+.history P span{
+    font-size: 60px;
+    color: dimgray;
+}
+.foundation h2{
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 20px;
+}
+.foundation p{
+    line-height:30px;
+    margin: 40px;
+}
+.foundation p span{
+    font-size: 60px;
+    color: dimgray;
+}
+.FAQ h2{
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 20px;
+}
+.FAQ p{
+    line-height:30px;
+    margin: 40px;
+}
+.FAQ p span{
+    font-size: 60px;
+    color: dimgray;
+}
